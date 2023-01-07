@@ -402,6 +402,19 @@
         "viridisLite"
       ]
     },
+    "soccerCR7": {
+      "Package": "soccerCR7",
+      "Version": "0.1.0",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteRepo": "soccerCR7",
+      "RemoteUsername": "Franosei",
+      "RemoteRef": "HEAD",
+      "RemoteSha": "8ff1055f685800aa2610160e714fc5be2ada4804",
+      "Hash": "c496becdeb041b7deb2030edc3a23c64",
+      "Requirements": []
+    },
     "stringi": {
       "Package": "stringi",
       "Version": "1.7.8",

@@ -1,0 +1,7 @@
+name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
+England|stem||5ee4f68beba34148|072fd4d157cc2197|1448994576||t19364.9789579587s||0|rds|local|vector|||2.45||too many 1401 weights
+Germany|stem|15d7f6b08f6e9a66|dcfaa905ade5ad18|072fd4d157cc2197|-1276062878||t19364.9803420601s|a1c456b03adbfbf8|44|rds|local|vector|||0.43||
+get_data|function|5803bc1e7c4e1eca|||||||||||||||
+league_data|stem|2985a714e4e7c613|f0c78c8250679058|3c2d20dc69c2373a|320408456||t19364.9788987556s|1dd458afa446b658|5002419|rds|local|vector|||0||
+league_dataset|stem|2985a714e4e7c613|f0c78c8250679058|3c2d20dc69c2373a|1032282846||t19364.9612666359s|1dd458afa446b658|5002419|rds|local|vector|||0.14||
+Spain|stem|15d7f6b08f6e9a66|8f323878e2f65717|072fd4d157cc2197|-1550540610||t19364.9803444908s|a1c456b03adbfbf8|44|rds|local|vector|||0.14||
