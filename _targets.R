@@ -8,17 +8,12 @@ source("functions.R")
 
 list(
   tar_target(
-    league_data,
+    Final_prediction,
     get_data()
   ),
   
   tar_target(
-    Spain,
-    trainCR7(leagueCR7,leagueCR7,league_name == "La Liga")
-  ),
-  
-  tar_target(
     Germany,
-    trainCR7(leagueCR7,leagueCR7,league_name == "Bundesliga")
+    trainCR7(leagueCR7,leagueCR7,league_name == "Bundesliga" | league_name == "Champions League" | league_name == "DFB Pokal")
   )
 )
