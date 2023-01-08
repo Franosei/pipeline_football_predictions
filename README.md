@@ -21,19 +21,30 @@ Git $\rightarrow$ copy and paste
 “<git@github.com>:Franosei/pipeline_football_predictions.git” in the
 Repository URL $\rightarrow$ Create Project.
 
-To run this pipeline, you will need to install the follow package from
-github and also from CRAN
+To run this pipeline, you first have to run this
 
 ``` r
-remotes::install_github("Franosei/Football_dataset_package/leagueCR7")
-remotes::install_github("Franosei/soccerCR7")
-library(leagueCR7)
-library(soccerCR7)
-library(targets)
-library(tidyverse)
-library(reshape2)
-library(dplyr)
-library(ggplot2)
+renv::activate
+#> function (project = NULL, profile = NULL) 
+#> {
+#>     renv_consent_check()
+#>     renv_scope_error_handler()
+#>     project <- renv_project_resolve(project)
+#>     renv_scope_lock(project = project)
+#>     renv_profile_set(profile)
+#>     renv_activate_impl(project = project, profile = profile, 
+#>         version = NULL, restart = FALSE, quiet = FALSE)
+#>     invisible(project)
+#> }
+#> <bytecode: 0x000001fc394d7a88>
+#> <environment: namespace:renv>
+renv::restore()
+#> Retrieving 'https://api.github.com/repos/Franosei/Football_dataset_package/tarball/5a8e7b1a0f30d476ce2c0849a8a85b71f46c7dfa' ...
+#>  OK [downloaded 9.3 Mb in 5.9 secs]
+#> Installing leagueCR7 [0.1.0] ...
+#>  OK [built from source]
+#> Moving leagueCR7 [0.1.0] into the cache ...
+#>  OK [moved to cache in 14 milliseconds]
 ```
 
 You can now run the pipeline simply with
@@ -59,5 +70,5 @@ targets::tar_make()
 #> ✔ skip target Correlation_plot
 #> ✔ skip target Germany
 #> ✔ skip target Germany_correlation_plot
-#> ✔ skip pipeline [0.19 seconds]
+#> ✔ skip pipeline [0.2 seconds]
 ```
