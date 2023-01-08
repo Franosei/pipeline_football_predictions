@@ -11,6 +11,16 @@ Germany teams in Bundesliga, Chanpions league and DFB Pokal. The final
 result is save as a textfile name result.txt. There is also a
 correlation plot of our variables.
 
+To run this pipeline, you have to clone this repository:
+
+Termial: git clone
+<git@github.com>:Franosei/pipeline_football_predictions.git
+
+R studio: Go to New Project $\rightarrow$ Version control $\rightarrow$
+Git $\rightarrow$ copy na d paste
+“<git@github.com>:Franosei/pipeline_football_predictions.git” in the
+Repository URL $\rightarrow$ Create Project.
+
 To run this pipeline, you will need to install the follow package from
 github and also from CRAN
 
@@ -49,5 +59,5 @@ targets::tar_make()
 #> ✔ skip target Correlation_plot
 #> ✔ skip target Germany
 #> ✔ skip target Germany_correlation_plot
-#> ✔ skip pipeline [0.22 seconds]
+#> ✔ skip pipeline [0.27 seconds]
 ```
