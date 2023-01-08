@@ -17,7 +17,7 @@ Termial: git clone
 <git@github.com>:Franosei/pipeline_football_predictions.git
 
 R studio: Go to New Project $\rightarrow$ Version control $\rightarrow$
-Git $\rightarrow$ copy na d paste
+Git $\rightarrow$ copy and paste
 “<git@github.com>:Franosei/pipeline_football_predictions.git” in the
 Repository URL $\rightarrow$ Create Project.
 
@@ -59,5 +59,5 @@ targets::tar_make()
 #> ✔ skip target Correlation_plot
 #> ✔ skip target Germany
 #> ✔ skip target Germany_correlation_plot
-#> ✔ skip pipeline [0.27 seconds]
+#> ✔ skip pipeline [0.19 seconds]
 ```
